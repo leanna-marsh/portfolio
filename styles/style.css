@@ -1,0 +1,176 @@
+
+header {
+  position: absolute;
+  z-index: 99;
+  padding: 30px;
+  max-width: 100%;
+}
+
+.fixednav {
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 60px;
+}
+
+.leftnav {
+  flex-grow: 1; /* to push the right icons right*/
+}
+
+
+a {
+  padding: 1em;
+}
+
+
+nav a {
+  font-size: 25px;
+  line-height: 29px;
+  font-family: 'Raleway', sans-serif;
+  color: #EDCCC6;
+  text-decoration: none;
+  margin: 15px;
+  }
+
+.angle {
+  position: relative;
+  overflow: hidden;
+  max-height: 80%;
+  width: 100%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(60% - 7vw), 0 70%);
+          clip-path: polygon(0 0, 100% 0, 100% calc(60% - 7vw), 0 70%);
+}
+
+@supports not ((-webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 7vw), 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% calc(100% - 7vw), 0 100%))) {
+  .angle::before, .angle::after {
+    content: "";
+    position: relative;
+    left: 0;
+    z-index: 10;
+    display: inline-block;
+    width: 100%;
+    border-style:  transparent transparent #fff transparent;
+  }
+  .angle::after {
+    bottom: 0;
+    border-width: 0 0 8vw 100vw;
+    width: 100%;
+    border-color: transparent transparent #fff transparent;
+  }
+}
+
+.arrows {
+  position: absolute;
+  left: 47.67%;
+  right: 47.67%;
+  top: 82%;
+  bottom: 23.61%;
+  box-shadow: 0px 4px 4px rgba(186, 116, 106, 0.24);
+}
+
+.hero-text {
+  position: absolute;
+  max-height: 100px;
+  max-width: 65%;
+  left: 8.55%;
+  top: 27.73%;
+  bottom: 47.76%;
+  color: #FFF;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color: #FFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 65px;
+  letter-spacing: 1px;
+}
+
+.blurb h2 {
+  color: #B38E40;
+}
+
+.blurb {
+  position: relative;
+  top: -100px;
+}
+
+.workTogether h2 {
+  color: #BA746A;
+  margin: 15px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -0.573913px;
+}
+
+
+
+h3 {
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: -0.573913px;
+  color: #000000;
+}
+
+.paragraph {
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.3;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.3;
+}
+
+
+
+.fixedfoot {
+  background-image: url(../images/plants1.png);
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 60px;
+}
+
+.leftfoot {
+  flex-grow: 1; /* to push the right icons right*/
+}
+
+footer a {
+  margin: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  text-align: left;
+  color: #B38E40;
+  text-decoration: none;
+}
+
+footer h6 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-align: right;
+  color: #FFFFFF;
+  padding: 10px;
+}

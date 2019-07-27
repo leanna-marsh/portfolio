@@ -3,59 +3,50 @@
 
   <head>
     <title>LM Portfolio | Home</title>
-<!--style ref for later-->
-    <link rel="stylesheet" href="styles/home.css">
-    <!-- a nav here in the header-->
+    <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway|Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
   </head>
   <body>
-    <div class="containerHome">
 
-      <!-- Hamburger Meu -->
-      <section class="container">
-        <header class="header">
-          <div class="logo">
-            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
-          </div>
-          <input class="menu-btn" type="checkbox" id="menu-btn" />
-          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-          <nav>
-          <ul class="menu">
-            <li><a href="index.html">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Get In Touch</a></li>
-          </ul>
-          </nav>
-        </header>
+    <header class="fixednav">
+        <nav class="leftnav">
+          <img src="images/logo2.svg" alt="LM logo">
+        </nav>
+        <nav class="rightnav">
+          <a href="index.html">Work</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Get In Touch</a>
+        </nav>
+      </header>
 
-        <!-- Hero image & Introduction text-->
-      <main>
-        <section class="hero">
-          <div class="heroImage">
-            <img src="images/leaves.jpg" alt="image of large dark green leaves">
-            <img src="images/arrowheads.svg" alt="two pink arrowheads pointing downward">
-            <div class="hero-text">
-            <h2>Hi, I'm Leanna.<br>I believe that design should be both pretty and intuitive,
-              which led me to UX & UI. I love to design, travel and whenever possible,
-              do both at the same time.</h2>
-          </div>
-          </div>
-        </section>
+      <section class=hero>
+        <div class="angle">
+          <img src="images/plants1.png" alt="image of large dark green leaves" class="angle__content">
+        </div>
+        <div class="arrows">
+          <img src="images/arrowheads.svg" alt="two pink arrowheads pointing downward">
+        </div>
+          <div class="hero-text">
+            <h1>Hi, I'm Leanna.<br>I believe that design should be both pretty and intuitive,
+        which led me to UX & UI. I love to design, travel and whenever possible,
+        do both at the same time.</h1>
+      </div>
+    </section>
 
         <!-- Quick blurb about me-->
         <section class="blurb">
-          <p class="blurb">When I’m not designing on the road, I’m in Los Angeles, California.<br>
+          <p class="paragraph">When I’m not designing on the road, I’m in Los Angeles, California.<br>
             I make things that are both easy on the eyes and the mind.</p>
-            <h3 class="my-work">See my work!</h3>
-            <div class="scroll">
-              <a href="#work" class="scroll-down" address="true"></a>
-            </div>
+            <h2>See my work below!</h2>
             </section>
 
         <!--All work projects displayed here-->
         <section class="work">
           <div class="project1">
             <div class="gather">
-              <h4>Gather</h4>
+              <h3>Gather</h3>
               <p class="project-desc">Creating a social sharing and cloud storage platform that stands out from the pack.</p>
               <!-- Image of gather web screen here
               <img src="images/gather-web1.png" alt="image of gather cloud storage project web scren">
@@ -83,18 +74,21 @@
                 -->
         </section>
         <section class="workTogether">
-          <p class="have-project">Starting a project?</p>
-          <h3>Let's work together!</h3>
+          <p class="paragraph">Starting a project?</p>
+          <h2>Let's work together!</h2>
         </section>
 
         <!-- Footer-->
-          <footer class="footer">
-              <ul class="footer-links">
-                <li><a href="index.html">Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Get In Touch</a></li>
-                </ul>
-            <h6>© 2019 | Designed & Developed by Leanna Marsh</h6>
+        <footer class="fixedfoot">
+            <div class="leftfoot">
+              <a href="index.html">Work</a>
+              <a href="about.html">About</a>
+              <a href="contact.html">Get In Touch</a>
+            </div>
+            <div class="rightfoot">
+              <h6>© 2019 | Designed & Developed by Leanna Marsh</h6>
+            </div>
           </footer>
+
       </body>
       </html>
