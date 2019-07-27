@@ -62,16 +62,15 @@ nav a {
   }
 }
 
+
 .angle img {
   width: 100%;
 }
 
 .arrows {
   position: absolute;
-  left: 47.67%;
-  right: 47.67%;
-  top: 82%;
-  bottom: 23.61%;
+  top: 50%;
+  left: 50%;
   box-shadow: 0px 4px 4px rgba(186, 116, 106, 0.24);
 }
 
@@ -95,41 +94,29 @@ h1 {
   letter-spacing: 1px;
 }
 
-.blurb h2 {
-  color: #B38E40;
-}
 
-.blurb {
-  position: relative;
-  top: -100px;
-}
-
-.workTogether h2 {
+.workTogether h3 {
   color: #BA746A;
   margin: 15px;
 }
 
 h2 {
   font-family: 'Raleway', sans-serif;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 25px;
+  line-height: 29px;
   text-align: center;
-  letter-spacing: -0.573913px;
+  color: #000000;
 }
 
 
 
 h3 {
-  position: relative;
   font-family: 'Raleway', sans-serif;
-  font-size: 25px;
-  line-height: 29px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
   text-align: center;
-  letter-spacing: -0.573913px;
-  color: #000000;
 }
 
 .paragraph {
@@ -147,11 +134,12 @@ p {
 
 
 
+
+
 .fixedfoot {
   background-image: url(../images/plants1.png);
   display: flex;
   align-items: center;
-  top: 0;
   left: 0;
   z-index: 9999;
   width: 100%;

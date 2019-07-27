@@ -2,42 +2,43 @@
 <html lang="en-US">
 
   <head>
-    <title>LM Portfolio | About</title>
-<!--style ref for later-->
-    <link rel="stylesheet" href="styles/home.css">
+    <title>LM Portfolio | Home</title>
+    <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway|Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/about.css">
   </head>
   <body>
-    <div class="containerAbout">
 
-      <!-- Hamburger Meu -->
-      <div class="container">
-        <header class="header">
-          <section class="logo">
-            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
-          </section>
-          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-          <ul class="menu">
-            <li><a href="index.html">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Get In Touch</a></li>
-          </ul>
-        </header>
+    <header class="fixednav">
+        <nav class="leftnav">
+          <img src="images/logo2.svg" alt="LM logo">
+        </nav>
+        <nav class="rightnav">
+          <a href="index.html">Work</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Get In Touch</a>
+        </nav>
+      </header>
 
         <!-- Hero image & Introduction text-->
-      <main>
-        <section class="hero">
-          <div class="heroImage">
-            <img src="images/portrait1.jpg" alt="image of Leanna Marsh on a leafy path">
-            <!-- the UX/UI Designer will scroll through different options-->
-            <div class="greeting">
-              <h2>I am a<span>UX/UI Designer.</span></h2>
-              </div>
+
+        <section class=hero>
+          <div class="angle">
+            <img src="images/portrait1.jpg" alt="image of Leanna Marsh on a leafy path" class="angle__content">
           </div>
+          <div class="arrows">
+            <img src="images/arrowheads.svg" alt="two pink arrowheads pointing downward">
           </div>
+          <!-- the UX/UI Designer will scroll through different options-->
+            <div class="hero-text">
+              <h1>I am a <span>UX/UI Designer.</span></h1>
+        </div>
+      </section>
 
           <!-- Quick blurb about being creative-->
           <section class="blurb">
-            <h4>Always Creative, Never A Creative</h4>
+            <h2>Always Creative, Never A Creative</h2>
             <p class="blurb">Though design was never in my title, I always sought out ways to bring design and
               other creativity to my life. Utilizing various mediums both on paper and computer,
               I’ve always itched for a more creative role.</p>
@@ -58,7 +59,7 @@
 
                   <!--Career path-->
                   <section class="path">
-                    <h4>My Path to Design</h4>
+                    <h2>My Path to Design</h2>
                     <p>As you can see, my path to design was not quite linear, but there were clear moments
                        that led me to UX/UI and gave me supplemental skills, which will continue to be a
                        great asset for me, such as marketing, project management and client/account management.</p>
@@ -90,21 +91,22 @@
                         <img src="images/web-path.png" alt="wavy line illustrating a career path">
                         -->
                       </div>
-                  </section>
                   <section class="workTogether">
-                    <p class="know-more">Want to know more?</p>
-                    <h3>Get in Touch!</h3>
+                    <p class="know-more">Starting a project?</p>
+                    <h3>Let's work together!</h3>
                   </section>
 
                   <!-- Footer-->
-                  <div class="footer">
-                    <footer>
-                      <section class="footer-links">
-                        <ul class="footer">
-                          <li><a href="index.html">Work</a></li>
-                          <li><a href="about.html">About</a></li>
-                          <li><a href="contact.html">Get In Touch</a></li>
-                      <h6>© 2019 | Designed & Developed by Leanna Marsh</h6>
+                  <!-- Footer-->
+                  <footer class="fixedfoot">
+                      <div class="leftfoot">
+                        <a href="index.html">Work</a>
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Get In Touch</a>
+                      </div>
+                      <div class="rightfoot">
+                        <h6>© 2019 | Designed & Developed by Leanna Marsh</h6>
+                      </div>
                     </footer>
                   </div>
                 </body>
