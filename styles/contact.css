@@ -38,17 +38,19 @@ nav a {
 .angle {
   position: relative;
   overflow: hidden;
+  max-height: 100%;
   width: 100%;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(85% - 8vw), 0 100%);
-          clip-path: polygon(0 0, 100% 0, 100% calc(85% - 8vw), 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(60% - 7vw), 0 70%);
+          clip-path: polygon(0 0, 100% 0, 100% calc(60% - 7vw), 0 70%);
 }
 
-@supports not ((-webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 8vw), 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% calc(100% - 8vw), 0 100%))) {
+@supports not ((-webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 7vw), 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% calc(100% - 7vw), 0 100%))) {
   .angle::before, .angle::after {
     content: "";
     position: relative;
     left: 0;
     z-index: 10;
+    display: inline-block;
     width: 100%;
     border-style:  transparent transparent #fff transparent;
   }
@@ -64,70 +66,32 @@ nav a {
   width: 100%;
 }
 
-main {
-    height: 100%;
-    display: grid;
-    grid-gap: 3px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 650px auto auto auto 40px;
-}
-
-.hero {
-  grid-column: 1 / -1;
-  position: relative;
-}
-
 .arrows {
-  left: 50%;
-  top: -17%;
-  position: relative;
+  position: absolute;
+  left: 47.67%;
+  right: 47.67%;
+  top: 82%;
+  bottom: 23.61%;
+  box-shadow: 0px 4px 4px rgba(186, 116, 106, 0.24);
 }
 
 .hero-text {
   position: absolute;
+  max-height: 100px;
   max-width: 65%;
-  left: 8.33%;
-  top: 20%;
+  left: 8.55%;
+  top: 27.73%;
+  bottom: 47.76%;
   color: #FFF;
 }
 
-.container {
-  grid-column: 3/10;
+.form {
+    display: grid;
+    grid-template-columns: 2fr 12fr 2fr;
+    grid-template-rows: 50px 50px;
+    grid-gap: 3px;
 }
 
-.blurb {
-  grid-column: 2;
-}
-
-.gather {
-  grid-column: 3;
-  margin: 10px;
-  padding: 5px;
-}
-
-.gatherdesc {
-  grid-column: 4;
-  grid-row: 2 / 6;
-}
-
-.gatherimg img {
-  grid-column: 4;
-  max-width: 50%;
-  grid-row: 6 / 10;
-}
-
-.workTogether {
-  grid-column: 5;
-  margin: 10px;
-  padding: 5px;
-}
-
-.workTogether h2 {
-  color: #BA746A;
-  margin: 15px;
-  margin: 10px;
-  padding: 5px;
-}
 
 h1 {
   font-family: 'Oswald', sans-serif;
@@ -143,6 +107,15 @@ h1 {
   color: #B38E40;
 }
 
+.blurb {
+  position: relative;
+  top: -100px;
+}
+
+.workTogether h2 {
+  color: #BA746A;
+  margin: 15px;
+}
 
 h2 {
   font-family: 'Raleway', sans-serif;
@@ -212,5 +185,4 @@ footer h6 {
   text-align: right;
   color: #FFFFFF;
   padding: 10px;
-  right: 8px;
 }
