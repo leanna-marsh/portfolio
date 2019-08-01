@@ -1,14 +1,11 @@
-
 body {
   max-width: 100%;
-  line-height: 1;
-  margin: auto;
 }
 
 header {
   position: absolute;
   z-index: 99;
-  padding: 30px;
+  padding-top: 10px;
   max-width: 100%;
 }
 
@@ -19,10 +16,10 @@ header {
   left: 0;
   z-index: 9999;
   width: 100%;
-  height: 60px;
 }
 
 .leftnav {
+  margin-left: 20px;
   flex-grow: 1; /* to push the right icons right*/
 }
 
@@ -38,8 +35,9 @@ nav a {
   font-family: 'Raleway', sans-serif;
   color: #EDCCC6;
   text-decoration: none;
-  margin: 15px;
+  text-align: left;
   }
+
 
 .angle {
   position: relative;
@@ -72,21 +70,23 @@ nav a {
 
 main {
     height: 100%;
-    width: 100%;
+    max-width: 1440;
     display: grid;
     grid-gap: 3px;
     grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 800px auto 40px;
 }
 
 .hero {
   grid-column: 1 / -1;
-  grid-row-start: 1;
+  grid-row: 1 / span 2;
   position: relative;
 }
 
 .arrows {
-  left: 50%;
-  top: -17%;
+  top: -6.5%;
+  width: 65px;
+  margin: auto;
   position: relative;
 }
 
@@ -99,31 +99,10 @@ main {
 }
 
 
-.blurb {
-  grid-column: 3 / 10;
-}
-
-.gather {
-  grid-column: 3 / 6;
-  margin: 10px;
-  padding: 5px;
-}
-
-.gatherdesc {
-  grid-column: 1 / 6;
-  grid-row: 3;
-}
-
 .gatherimg img {
   grid-column: 4;
   max-width: 50%;
   grid-row: 6 / 12;
-}
-
-.workTogether {
-  grid-column: 5;
-  margin: 10px;
-  padding: 5px;
 }
 
 .workTogether h2 {
@@ -187,6 +166,8 @@ p {
 
 
 .fixedfoot {
+  grid-column: 1 / -1;
+  grid-row: 8;
   background-image: url(../images/plants1.png);
   display: flex;
   align-items: center;
