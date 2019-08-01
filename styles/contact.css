@@ -2,7 +2,7 @@
 header {
   position: absolute;
   z-index: 99;
-  padding: 30px;
+  margin-top: 30px;
   max-width: 100%;
 }
 
@@ -75,7 +75,7 @@ main {
     display: grid;
     grid-gap: 3px;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 650px auto auto auto 40px;
+    grid-template-rows: 800px auto 40px;
     align-content: center;
 }
 
@@ -85,8 +85,9 @@ main {
 }
 
 .arrows {
-  top: -17%;
-  left: 47%;
+  top: -6.5%;
+  width: 65px;
+  margin: auto;
   position: relative;
 }
 
@@ -115,62 +116,84 @@ main {
   opacity: 0.7;
 }
 
+.bodycontent {
+  grid-column: 3 / span 8;
+}
+
 .blurb {
   grid-column: 1 / -1;
   grid-row: 2;
 }
 
 .form {
-  grid-column: 2 / span 10;
-  grid-row: 3;
   margin-top: 100px;
 }
 
 .container {
-  grid-column: 2 / span 10;
-  grid-row: 4;
+  display: block;
   margin-top: 40px;
   margin-bottom: 70px;
   display: grid;
-  grid-template-columns: 2fr 12fr 2fr;
   grid-gap: 3px;
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
   text-align: left;
+  width: 100%;
+}
+
+.formEntry {
+  margin-top: 15px;
 }
 
 .container #name {
-  width: 600px;
+  width: 700px;
   height: 30px;
+  background-color: #F2F2F2;
+  border-style: none;
+  border-radius: 8px;
 }
 
 .container #email {
-  width: 600px;
+  width: 700px;
   height: 30px;
+  background-color: #F2F2F2;
+  border-style: none;
+  border-radius: 8px;
 }
 
 .container #number {
-  width: 600px;
+  width: 700px;
   height: 30px;
+  background-color: #F2F2F2;
+  border-style: none;
+  border-radius: 8px;
 }
 
 .container #message {
-  width: 600px;
+  width: 700px;
   height: 200px;
+  background-color: #F2F2F2;
+  border-style: none;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 .workTogether {
   padding-bottom: 50px;
 }
 
-.container-submit {
-  background: #0066A2;
+input {
+  background: #12634F;
   color: white;
-  border-style: outset;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  border-style: none;
   border-color: #0066A2;
-  height: 50px;
-  width: 100px;
+  height: 30px;
+  width: 295px;
+  border-radius: 8px;
+  align-self: center;
 }
 
 
@@ -246,10 +269,12 @@ h3 {
 
 
 .fixedfoot {
+  grid-column: 1 / -1;
+  grid-row: 8;
   background-image: url(../images/plants1.png);
   display: flex;
   align-items: center;
-  bottom: 0;
+  top: 0;
   left: 0;
   z-index: 9999;
   width: 100%;

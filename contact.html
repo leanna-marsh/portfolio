@@ -12,7 +12,7 @@
 
     <header class="fixednav">
         <nav class="leftnav">
-          <img src="images/logo2.svg" alt="LM logo">
+          <a href="index.html"><img src="images/logo2.svg" alt="LM logo">
         </nav>
         <nav class="rightnav">
           <a href="index.html">Work</a>
@@ -41,35 +41,38 @@
       </div>
     </section>
 
+    <section class="bodycontent">
           <!-- Quick blurb about being creative-->
-          <section class="blurb">
+          <div class="blurb">
             <h2>For my official resume, please contact me.</h2>
             <h3 class="pink">leanna.marsh@gmail.com</h3>
-          </section>
+          </div>
 
         <!--Form-->
           <section class="form">
             <h4>Contact Form</h4>
             <div class="container">
               <form action="action_page.php">
-
+                <div class="formEntry">
                 <label for="name">Full Name</label>
                 <input type="text" id="name" name="fullname" placeholder="">
-
+              </div>
+              <div class="formEntry">
                 <label for="email">Email Address</label>
                 <input type="text" id="email" name="emailAddress" placeholder="">
-
-                <label for="email">Phone Number</label>
+              </div>
+              <div class="formEntry">
+                <label for="phoneNumber">Phone Number</label>
                 <input type="text" id="number" name="phoneNumber" placeholder="">
-
+              </div>
+              <div class=formEntry>
                 <label for="message">Message</label>
                 <textarea id="message" name="message" placeholder=""></textarea>
-
+              </div>
                 <input type="submit" value="Submit!">
               </form>
             </div>
           </section>
-        </main>
 
                   <section class="workTogether">
                     <h5>Let's Work Together!</h5>
@@ -87,6 +90,6 @@
                         <h6>© 2019 | Designed & Developed by Leanna Marsh</h6>
                       </div>
                     </footer>
-
+                  </main>
                 </body>
-                </html>
+              </html>
