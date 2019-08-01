@@ -2,7 +2,7 @@
 header {
   position: absolute;
   z-index: 99;
-  margin-top: 30px;
+  margin-top: 10px;
   max-width: 100%;
 }
 
@@ -38,7 +38,6 @@ nav a {
   font-family: 'Raleway', sans-serif;
   color: #EDCCC6;
   text-decoration: none;
-  margin: 15px;
   }
 
 .angle {
