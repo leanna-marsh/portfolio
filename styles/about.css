@@ -198,12 +198,20 @@ line-height: 30px;
 
 .workTogether {
   margin-top: 150px;
-  margin-bottom: 20px;
 }
 
 .getintouch {
   margin-bottom: 80px;
   color: #BA746A;
+}
+
+.getintouch a {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: medium;
+  font-size: 33px;
+  text-align: center;
 }
 
 h1 {
@@ -219,7 +227,7 @@ h1 {
 
 .workTogether h3 {
   color: #BA746A;
-  margin: 15px;
+  margin: 10px;
 }
 
 h2 {
@@ -241,27 +249,11 @@ h3 {
   font-weight: 500;
 }
 
-h4 {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: medium;
-  font-size: 33px;
-  text-align: center;
-}
-
-p .knowmore {
-  text-align:
-}
-
 p {
   font-size: 22px;
   font-family: 'Roboto', sans-serif;
   line-height: 1.3;
   font-weight: 300;
-}
-
-.knowmore p {
-  text-align:
 }
 
 
