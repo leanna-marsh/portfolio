@@ -219,6 +219,9 @@ hr {
   width: 100%;
 }
 
+
+
+
 /** I NEED TO CENTER THE TEXT CONTENT WITHIN THE GRID**/
 .storybox {
   display: grid;
@@ -272,6 +275,26 @@ hr {
     grid-column: 9 / span 4;
     grid-row: 2;
     width: 100%;
+}
+
+.designBox {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.designBox a {
+  grid-column: 1 / -1;
+  grid-row: 2;
+}
+
+.wireframes img {
+  max-height: 375px;
 }
 
 h1 {
