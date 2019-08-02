@@ -192,6 +192,10 @@ line-height: 30px;
   width: 100%
 }
 
+.creativeImages img {
+  max-height: 270px;
+}
+
 .workTogether {
   margin-top: 150px;
   margin-bottom: 20px;
