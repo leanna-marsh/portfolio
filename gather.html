@@ -2,85 +2,97 @@
 <html lang="en-US">
 
   <head>
-    <title>LM Portfolio | Gather</title>
-<!--style ref for later-->
-    <link rel="stylesheet" href="styles/home.css">
+    <title>LM Portfolio | Home</title>
+    <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway:100,300,500,600|Roboto:300,400,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/gather.css">
   </head>
   <body>
-    <div class="containerAbout">
 
-      <!-- Hamburger Meu -->
-      <div class="container">
-        <header class="header">
-          <section class="logo">
-            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
-          </section>
-          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-          <ul class="menu">
-            <li><a href="index.html">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Get In Touch</a></li>
-          </ul>
-        </header>
+    <header class="fixednav">
+        <nav class="leftnav">
+          <a href="index.html"><img src="images/logo2.svg" alt="LM logo"></a>
+        </nav>
+        <nav class="rightnav">
+          <a href="index.html">Work</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Get In Touch</a>
+        </nav>
+      </header>
 
-        <!-- Hero image & Introduction text-->
       <main>
-        <section class="hero">
-          <div class="heroImage">
-            <img src="images/leaves.jpg" alt="image of large dark green leaves">
-            <img src="images/arrowheads.svg" alt="two pink arrowheads pointing downward">
-            <div class="hero-text">
-            <h2>Creating a social sharing and cloud storage platform
-               that stands out from the pack.</h2>
-          </div>
-          </div>
+      <section class=hero>
+        <div class="angle">
+          <img src="images/plants2.jpg" alt="image of large dark green leaves" class="angle__content">
+        </div>
+        <div class="arrows">
+          <img src="images/arrowheads.svg" alt="two pink arrowheads pointing downward">
+        </div>
+          <div class="hero-text">
+            <h1>Creating a social sharing and cloud storage platform
+               that stands out from the pack.</h1>
+      </div>
+    </section>
 
           <!-- Quick blurb about being creative-->
+    <section class="bodycontent">
+
           <section class="intro">
-            <div class="problem">
-            <h4>The Problem</h4>
-            <p class="explaination">Invent, design and brand a cloud storage app
+            <h2>The Problem</h2>
+            <div class=intro1>
+            <p>Invent, design and brand a cloud storage app
                with the following desired features:</p>
-            <ul>
+             </div>
+             <div class="introlist">
+            <ul style="list-style-type:circle;">
               <li class="points">Saving content found on the web (links, images, videos, etc.)</li>
               <li class="points">Organizing that content</li>
               <li class="points">Creating new content</li>
               <li class="points">Uploading files from a personal device</li>
             </ul>
           </div>
-          <div class="solution">
-            <h4>The Solution</h4>
-            <p class="explaination">Gather: a place for both people and content to gather, connect and intertwine.</p>
-            <ul>
+            <h2>The Solution</h2>
+            <div class="intro1">
+            <p>Gather: a place for both people and content to gather, connect and intertwine.</p>
+          </div>
+          <div class="introlist">
+            <ul style="list-style-type:circle;">
               <li class="points">Add content from the web using its URL or a browser extension</li>
               <li class="points">Organize content into folders and chronologically</li>
               <li class="points">Create new photos or videos directly from your device</li>
               <li class="points">Upload content from any device and edit its image and info</li>
             </ul>
           </div>
-          <div class="sampleScreens">
-            <ul>
-              <li>
-                <img src="images/mobile/mockup1.svg" class="mobile1" alt="Image of a smartphone with a screen from Gather">
-                <a href="https://www.figma.com/proto/7Z22mOjlwbXQZljf6BdJFZ/Pixel2-Gather?scaling=scale-down&node-id=239%3A2491" target="_blank">View the app prototype.</a>
-              </li>
-              <li>
-                <img src="images/web/home2.png" class="web1" alt="Homepage of Gather for the web or desktop">
-                <a href="https://www.figma.com/proto/NlNOQ0sMESDcm1ENh6yiMp/Gather-Desktop-Final?node-id=277%3A5284&scaling=min-zoom" target="_blank">View the web prototype.</a>
-              </li>
+        </section>
+        <section class="introbox">
+          <div class="appScreen">
+              <img src="images/appScreen1.jpg" alt="Image of a smartphone with a screen from Gather">
+          </div>
+          <div class="webScreen">
+              <img src="images/web/home.jpg" alt="Homepage of Gather for the web or desktop">
+          </div>
+          <div class="introlink1">
+            <a href="https://www.figma.com/proto/7Z22mOjlwbXQZljf6BdJFZ/Pixel2-Gather?scaling=scale-down&node-id=239%3A2491" target="_blank"><h3>View the app prototype.</h3></a>
+          </diV>
+          <div class="introlink2">
+            <a href="https://www.figma.com/proto/NlNOQ0sMESDcm1ENh6yiMp/Gather-Desktop-Final?node-id=277%3A5284&scaling=min-zoom" target="_blank"><h3>View the web prototype.</h3></a>
           </div>
           <div class="details1">
+          </section>
+          <div class="mission">
             <p>Our mission was to provide a calming space for productivity and play. Combining aspects
                of successful apps, within gather, the user will be able to create content on-the-go, save
                 from the web, send, share, chat and organize. The best part? Everyone can use gather in their
                  own way. Whether you want things to be just for you, for friends, everyone or a combination:
                   we’ve got you covered.</p>
           </div>
-        </section>
+
+          <hr>
                   <!-- bar with the leafy background here-->
 
                   <section class="research">
-                    <div class="research">
+                    <div class="research1">
                     <h4>Research</h4>
                     <p class="explaination">After surveying 29 participants, it was clear that people were looking for a social
                        platform with images and videos to explore, while having the flexibility to keep things private, to their own friends or public. </p>
@@ -120,7 +132,7 @@
                   <div class="userStories">
                     <h4>User Stories</h4>
                     <p class="explaination">From my research, I was able to determine the various tasks that were integral for the user, organized by priority level.</p>
-                    <ul>
+                    </div>
                   </section>
                   <section class="storyPoints">
                     <div class="highPoints">
@@ -133,6 +145,7 @@
                         <li class="stories">Share one item</li>
                         <li class="stories">Share a folder/group of items</li>
                     </ul>
+                  </div>
                     <div class="mediumPoints">
                       <p>Medium Priority</p>
                       <ul>
@@ -141,6 +154,7 @@
                         <li class="stories">Organize content</li>
                         <li class="stories">Create new content</li>
                     </ul>
+                  </div>
                     <div class="lowPoints">
                       <p>Low Priority</p>
                       <ul>
@@ -150,8 +164,6 @@
                     </ul>
                     <a href="https://docs.google.com/document/d/1fkqP8DFktTmxirToVpjBK0L4CNy7uMMsqs-LibebqwE/edit?usp=sharing" target="_blank">View the full SWOT analysis here.</a>
                   </div>
-                  </section>
-                  <section class="research">
                     <div class="flows">
                       <h4>User Flows</h4>
                       <p class="explaination">User Flows is a very important step in the creation process
@@ -161,11 +173,13 @@
                         <img src="images/sharing.png" class="flows" alt="User Flow of how to share an item or folder with Gather">
                         <a href="https://www.figma.com/file/Sd9XkYslJwLU2T8hJUeJAH/User-Flows-Gather?node-id=0%3A1" target="_blank">View all of the User Flows here.</a>
                     </div>
+                  </section>
+
       <!-- insert diagonal bar here-->
                     <section class="design">
                       <div class="branding">
                         <h4>Branding: Name, Logo & Color Palette</h4>
-                        <p class="explaination">I wanted to create a place for both people and content to gather, connect
+                        <p>I wanted to create a place for both people and content to gather, connect
                           and intertwine, which is how the name, “Gather” came to be. The logos and color palette came
                           naturally as soon as I had the brand philosophy in mind.</p>
                       <!-- branding images -->
@@ -178,7 +192,7 @@
                       </section>
                       <section class="wireframes">
                         <h4>Wireframing</h4>
-                        <p class="explanation">Going from quick sketches, to lo-fi to hi-fi versions, my designs
+                        <p>Going from quick sketches, to lo-fi to hi-fi versions, my designs
                            went through a lot of cycles of feedback and designing.</p>
                         <div class="sketches">
                           <p>Sketches</p>
@@ -207,10 +221,10 @@
                         </section>
           <!-- insert diagonal bar here-->
 
-                    <section class="research">
-                      <div class="research">
+                    <section class="testing">
+                      <div class="test1">
                         <h4>Testing</h4>
-                        <p class="explaination">I tested my low and high fidelity prototypes to six users, all garnering
+                        <p>I tested my low and high fidelity prototypes to six users, all garnering
                            information that helped me further my designs. Through this User Testing, Preference Testing and
                             Grader Feedback, rounds of changes were made.</p>
                           <ul>
@@ -245,7 +259,7 @@
                         </section>
                         <section class="iterations">
                           <h4>Iterations</h4>
-                          <p class="explaination">From all the gathered insight and feedback, I was able to go from my initial wireframe
+                          <p>From all the gathered insight and feedback, I was able to go from my initial wireframe
                              sketches to my final hi-fi screens (and prototypes).</p>
                              <div class="iterationPngs">
                                <img src="images/iteration1.png" class="iterations" alt="Sketch of a screen for Gather">
@@ -253,7 +267,7 @@
                                <img src="images/hifi1.png" class="iterations" alt="Hifi version of a screen for Gather">
                                <img src="images/web1.png" class="iterations" alt="Web hifi version of a screen for Gather">
                             </div>
-                            <div class="iterationPngs">
+                            <div class="iterationPngs2">
                               <img src="images/iteration2.png" class="iterations" alt="Sketch of a screen for Gather">
                               <img src="images/lofi2.png" class="iterations" alt="Lofi version of a screen for Gather">
                               <img src="images/hifi2.png" class="iterations" alt="Hifi version of a screen for Gather">
@@ -271,18 +285,20 @@
                               <li class="points">Not all feedback is as helpful as others, so it’s important to survey and test as many people as possible</li>
                             </ul>
                         </section>
-
+                  </section>
 
                   <!-- Footer-->
-                  <div class="footer">
-                    <footer>
-                      <section class="footer-links">
-                        <ul class="footer">
-                          <li><a href="index.html">Work</a></li>
-                          <li><a href="about.html">About</a></li>
-                          <li><a href="contact.html">Get In Touch</a></li>
-                      <h6>© 2019 | Designed & Developed by Leanna Marsh</h6>
+                  <footer class="fixedfoot">
+                      <div class="leftfoot">
+                        <a href="index.html">Work</a>
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Get In Touch</a>
+                      </div>
+                      <div class="rightfoot">
+                        <h6>© 2019 | Designed & Developed by Leanna Marsh</h6>
+                      </div>
                     </footer>
-                  </div>
+                  </main>
+                </div>
                 </body>
-                </html>
+              </html>
