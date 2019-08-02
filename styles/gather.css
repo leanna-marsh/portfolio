@@ -5,6 +5,10 @@ header {
   max-width: 100%;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   max-width: 100%;
   line-height: 1;
@@ -93,10 +97,21 @@ main {
 
 .hero-text {
   position: absolute;
-  max-width: 65%;
+  max-width: 60%;
   left: 8.33%;
-  top: 15%;
+  top: 20%;
   color: #FFF;
+}
+
+.heroApp {
+  position: absolute;
+  max-width: 40%;
+  right: 8.33%;
+  top: 20%;
+  color: #FFF;
+}
+
+.heroApp img {
 }
 
 .bodycontent {
@@ -118,6 +133,9 @@ main {
   margin-left: 50px;
 }
 
+.intro h3 {
+  margin-top: 15px;
+}
 
 .introbox {
   display: grid;
@@ -141,6 +159,7 @@ main {
 
 .introbox h3 {
   margin: auto;
+  text-align: center;
 }
 
 .appScreen {
@@ -161,15 +180,99 @@ main {
 }
 
 hr {
-    display: block;
     margin-top: 80px;
     margin-bottom: 80px;
     overflow: hidden;
     border-style: solid;
-    border-width: 2px;
+    border-width: 4px;
+    border-radius: 8px;
     color: #EDCCC6;
 }
 
+.space {
+  margin-top: 120px;
+}
+
+.personaFigma {
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+  max-width: 100%;
+}
+
+.persona1 {
+  grid-column: 1 / span 12;
+  width: 100%;
+}
+
+.persona2 {
+  grid-column: 1 / span 6;
+  width: 100%;
+}
+
+.persona3 {
+  grid-column: 7 / span 6;
+  width: 100%;
+}
+
+/** I NEED TO CENTER THE TEXT CONTENT WITHIN THE GRID**/
+.storybox {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.high {
+  grid-column: 1 / span 4;
+  width: 100%;
+  grid-row: 1;
+  text-align: center;
+  color: #B38E40;
+}
+
+.medium {
+  grid-column: 5 / span 4;
+  width: 100%;
+  grid-row: 1;
+  text-align: center;
+  color: #B38E40;
+}
+
+.low {
+  grid-column: 9 / span 4;
+  width: 100%;
+  grid-row: 1;
+  text-align: center;
+  color: #B38E40;
+
+}
+
+  .highPoints {
+    grid-column: 1 / span 4;
+    grid-row: 2;
+    width: 100%;
+  }
+
+  .mediumPoints {
+    grid-column: 5 / span 4;
+    grid-row: 2;
+    width: 100%;
+  }
+
+  .lowPoints {
+    grid-column: 9 / span 4;
+    grid-row: 2;
+    width: 100%;
+}
 
 h1 {
   font-family: 'Oswald', sans-serif;
@@ -200,10 +303,9 @@ h3 {
   position: relative;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  text-align: center;
   letter-spacing: -0.57px;
   color: #12634F;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 p {
@@ -228,6 +330,13 @@ p {
 
 a {
   text-decoration: none;
+}
+
+li {
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.3;
+  font-weight: 300;
 }
 
 
