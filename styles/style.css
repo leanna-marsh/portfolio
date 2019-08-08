@@ -138,18 +138,19 @@ main {
   text-align: center;
 }
 
-button {
+.button {
   background: #12634F;
   color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   border-style: none;
   border-color: #0066A2;
-  height: 30px;
   width: 135px;
+  text-align: center;
   border-radius: 8px;
-  align-self: center;
   margin-top: 15px;
+  padding: 10px;
+  margin-left: auto;
 }
 
 
