@@ -109,6 +109,7 @@ nav a {
   position: relative;
   overflow: hidden;
   width: 100%;
+  max-height: 100%;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(85% - 8vw), 0 100%);
           clip-path: polygon(0 0, 100% 0, 100% calc(85% - 8vw), 0 100%);
 }
