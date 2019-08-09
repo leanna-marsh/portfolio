@@ -44,6 +44,7 @@ body {
 
 .navbar a:hover, .dropdown:hover .dropbtn {
   font-weight: 500;
+  color: #BA746A;
 }
 
 .dropdown-content {
@@ -365,7 +366,7 @@ footer a {
   text-align: left;
   color: #B38E40;
   text-decoration: none;
-  padding: 20px;
+  padding-left: 20px;
   font-weight: 300;
 }
 
