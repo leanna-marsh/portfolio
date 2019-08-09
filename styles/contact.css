@@ -26,9 +26,70 @@ body {
   flex-grow: 1; /* to push the right icons right*/
 }
 
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  color: #EDCCC6;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-weight: 300;
+  margin-right: 15px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  font-weight: 500;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* if desired:
+  background-color:rgb(128,128,128);opacity:0.6;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.dropdown-content a:hover {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 
 header a {
   padding: 1em;
+}
+
+header a:hover {
+  padding: 1em;
+  font-weight: 500;
+ color: #BA746A;
+}
+
+.current {
+font-weight: 500;
 }
 
 .hero a {
@@ -42,6 +103,7 @@ nav a {
   font-family: 'Raleway', sans-serif;
   color: #EDCCC6;
   text-decoration: none;
+  font-weight: 300;
   }
 
 .angle {
@@ -199,9 +261,12 @@ input {
   font-size: 16px;
   border-style: none;
   border-color: #0066A2;
-  height: 30px;
   width: 295px;
   border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  display: block;
 }
 
 
@@ -300,6 +365,13 @@ footer a {
   text-align: left;
   color: #B38E40;
   text-decoration: none;
+  padding: 20px;
+  font-weight: 300;
+}
+
+footer a:hover {
+  font-weight: 500;
+  color: #EDCCC6;
 }
 
 footer h6 {

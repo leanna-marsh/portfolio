@@ -25,8 +25,69 @@ body {
   flex-grow: 1; /* to push the right icons right*/
 }
 
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  color: #EDCCC6;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-weight: 300;
+  margin-right: 15px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  font-weight: 500;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* if desired:
+  background-color:rgb(128,128,128);opacity:0.6;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.dropdown-content a:hover {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 header a {
   padding: 1em;
+}
+
+header a:hover {
+  padding: 1em;
+  font-weight: 500;
+  color: #BA746A;
+}
+
+.current {
+font-weight: 500;
 }
 
 
@@ -36,7 +97,7 @@ nav a {
   font-family: 'Raleway', sans-serif;
   color: #EDCCC6;
   text-decoration: none;
-  text-align: left;
+  font-weight: 300;
   }
 
   .angle {
@@ -106,25 +167,34 @@ main {
 
 .me {
     display: grid;
-    grid-gap: 3px;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
     margin-bottom: 150px;
     margin-top: 60px;
 
 }
+
+
 
 .portrait img {
   max-width: 100%;
 }
 
 .aboutme {
-  grid-column: 1 / span 3;
-  padding-right: 20px;
+  grid-column: 1;
+}
+
+.insta {
+  display: flex;
+}
+
+.insta img {
+  margin-right: 8px;
 }
 
 .portrait {
-  grid-column: 4 / span 3;
+  grid-column: 2;
+  grid-row: 1 / span 2;
 }
 
 
@@ -147,7 +217,8 @@ line-height: 30px;
     max-width: 100%;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
 }
 
 .skills {
@@ -155,14 +226,14 @@ line-height: 30px;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   font-weight: 300;
-  grid-column: 1 / span 3;
+  grid-column: 1;
 }
 
 .roles {
   font-size: 33px;
   font-family: 'Raleway', sans-serif;
   line-height: 1.5;
-  grid-column: 5 / span 4;
+  grid-column: 2;
   font-weight: 600;
 }
 
@@ -284,6 +355,13 @@ footer a {
   text-align: left;
   color: #B38E40;
   text-decoration: none;
+  padding: 20px;
+  font-weight: 300;
+}
+
+footer a:hover {
+  font-weight: 500;
+  color: #EDCCC6;
 }
 
 footer h6 {

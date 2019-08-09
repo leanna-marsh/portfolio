@@ -7,7 +7,9 @@
   <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway:100,300,500,600|Roboto:300,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles/reset.css">
   <link rel="stylesheet" type="text/css" href="styles/about.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
+  <script src="about.js"></script>
   <body>
 
     <header class="fixednav">
@@ -15,8 +17,15 @@
           <a href="index.html"><img src="images/logo2.svg" alt="LM logo"></a>
         </nav>
         <nav class="rightnav">
-          <a href="index.html">Work</a>
-          <a href="about.html">About</a>
+          <div class="dropdown">
+            <button class="dropbtn">Work
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="gather.html">Gather</a>
+              <a href="#">Project 2</a>
+            </div>
+          <a href="about.html" class="current">About</a>
           <a href="contact.html">Get In Touch</a>
         </nav>
       </header>
@@ -31,7 +40,9 @@
         </div>
           <div class="hero-text">
             <!-- the UX/UI Designer will scroll through different options-->
+            <div class="greeting">
             <h1>I am <span>a UX/UI Designer.</span></h1>
+          </div>
       </div>
     </section>
     <section class="bodycontent">
@@ -44,6 +55,8 @@
             <div class="aboutme">
               <p>I’ve spent my life in Vancouver, Frankfurt, and Los Angeles, which has taught me to be flexible and open-minded.</p>
               <p>Some of my hobbies include cooking, baking, playing games and camping. I’m also starting to get into kayaking and mountain biking and would love to learn to play the piano.</p>
+            </div>
+            <div class="insta">
               <a href="https://www.instagram.com/leannaalice/" class="instagram"><img alt="instagram logo" src="images/instagram.svg"></a>
               <p>For more about me, feel free to visit my instagram.</p>
             </div>

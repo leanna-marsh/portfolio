@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway:100,300,500,600|Roboto:300,400,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles/reset.css">
   <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
 
@@ -15,7 +16,14 @@
           <a href="index.html"><img src="images/logo2.svg" alt="LM logo"></a>
         </nav>
         <nav class="rightnav">
-          <a href="index.html">Work</a>
+          <div class="dropdown">
+            <button class="dropbtn">Work
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="gather.html">Gather</a>
+              <a href="#">Project 2</a>
+            </div>
           <a href="about.html">About</a>
           <a href="contact.html">Get In Touch</a>
         </nav>
