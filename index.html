@@ -4,14 +4,16 @@
   <head>
     <title>LM Portfolio | Home</title>
     <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Oswald%7CRaleway:200,300,500,600%7CRoboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles/reset.css">
-  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles2.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/87519e2005.js"></script>
   </head>
   <body>
 
+    <main>
 
     <header class="fixednav">
         <nav class="leftnav">
@@ -21,25 +23,18 @@
           <div class="home">
           <a href="index.html" class="current">Home</a>
         </div>
-          <div class="dropdown">
-            <button class="dropbtn">Work
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="gather.html">Gather</a>
-              <a href="#">Project 2</a>
-            </div>
-          </div>
+        <div class="work">
+        <a href="index.html#projects">Work</a>
+        </div>
           <div class="about">
           <a href="about.html">About</a>
         </div>
         <div class="contact">
-          <a href="contact.html">Get In Touch</a>
+          <a href="contact.html">Contact</a>
         </div>
         </nav>
       </header>
 
-      <main>
       <section class=hero>
         <div class="angle">
           <img src="images/plants2.jpg" alt="image of large dark green leaves" class="angle__content">
@@ -67,18 +62,18 @@
           </div>
 
         <!--All work projects displayed here-->
-            <div class="gather">
+            <div class="gather" id="projects">
               <h3>Gather</h3>
             </div>
             <section class="gatherbox">
+              <div class="gatherimg">
+                <img src="images/imagesgather.jpg" alt="two images of gather cloud storage project web scren">
+              </div>
             <div class="gatherdesc">
               <p>Creating a social sharing and cloud storage platform that stands out from the pack.</p>
             <div class="button">
               <a href="gather.html">See Case Study</a>
             </div>
-            </div>
-            <div class="gatherimg">
-              <img src="images/imagesgather.jpg" alt="two images of gather cloud storage project web scren">
             </div>
           </section>
         <div class="workTogether">
@@ -87,7 +82,11 @@
         </div>
       </section>
 
-    <footer class="fixedfoot">
+    <footer>
+      <section class="fixedfoot">
+      <div class="angle2">
+        <img src="images/plants2.jpg" alt="image of large dark green leaves" class="angle__content">
+      </div>
         <div class="leftfoot">
           <a href="index.html">Work</a>
           <a href="about.html">About</a>
