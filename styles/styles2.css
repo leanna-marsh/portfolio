@@ -332,8 +332,8 @@ footer {
    color: #707070;
    height: 2em;
    position: relative;
+   text-align: center;
    max-width:100%;
-   z-index: 1;
 }
 
 footer a {
@@ -354,8 +354,7 @@ footer a:hover {
 footer h6 {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  text-align: right;
   color: #FFFFFF;
   padding: 10px;
-  right: 8px;
+/* desktop  right: 8px; */
 }
