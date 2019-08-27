@@ -68,26 +68,19 @@
           <section class="form">
             <h4>Contact Form</h4>
             <div class="container">
-              <form action="action_page.php">
-                <div class="formEntry">
-                <label for="name">Full Name</label><br>
-                <input type="text" id="name" name="fullname" placeholder="">
-              </div>
               <div class="formEntry">
+              <form action="https://formspree.io/email@domain.tld" method="POST">
+                  <label for="name">Full Name</label><br>
+                  <input type="text" id="name" name="name">
                 <label for="email">Email Address</label><br>
-                <input type="text" id="email" name="emailAddress" placeholder="">
-              </div>
-              <div class="formEntry">
+                <input type="email" id="email" name="_replyto">
                 <label for="phoneNumber">Phone Number</label><br>
                 <input type="text" id="phoneNumber" name="phoneNumber" placeholder="">
-              </div>
-              <div class=formEntry>
                 <label for="message">Message</label><br>
                 <textarea id="message" name="message" placeholder=""></textarea>
-              </div>
                 <input type="submit" value="Submit!">
+              </div>
               </form>
-            </div>
           </section>
 <!-- optional
                   <section class="workTogether">

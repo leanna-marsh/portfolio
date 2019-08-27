@@ -336,6 +336,30 @@ a {
 /* Contact Specific Styles */
 
 
+input[type=text] {
+  color: black;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+input[type=Email] {
+  color: black;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+input[type=message] {
+  color: black;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
 .iconlist {
   position: absolute;
   max-width: 65%;
