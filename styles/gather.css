@@ -1,164 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
-header {
-  position: absolute;
-  z-index: 99;
-  margin-top: 10px;
-  max-width: 100%;
-}
-
-img {
-  max-width: 100%;
-}
-
-body {
-  max-width: 100%;
-  line-height: 1;
-  margin: auto;
-}
-
-.gotop {
-  position: fixed;
-  width: 50px;
-  height: 50px;
-  color: #3C5050;
-  bottom: 70px;
-  right: 30px;
-}
-
-.gotopbtn {
-  color: #3C5050;
-  font-size: 45px;
-}
-
-.fixednav {
-  display: flex;
-  width: 100%;
-  height: 60px;
-  align-items: center;
-}
-
-.leftnav {
-  flex-grow: 1; /* to push the right icons right*/
-}
-
-.rightnav {
-  display: flex;
-}
-
-.dropdown .dropbtn {
-  font-size: 25px;
-  font-family: 'Raleway', sans-serif;
-  color: #EDCCC6;
-  border: none;
-  outline: none;
-  background-color: transparent;
-  font-weight: 500;
-  margin-right: 15px;
-  margin-left: 15px;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  font-weight: 500;
-  color: #BA746A;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  /* if desired:
-  background-color:rgb(128,128,128);opacity:0.6;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: white;
-  font-weight: 300;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.dropdown-content a:hover {
-  margin: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-weight: 500;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-header a {
-  padding: 1em;
-}
-
-header a:hover {
-  padding: 1em;
-  font-weight: 500;
- color: #BA746A;
-}
-
-.current {
-font-weight: 500;
-}
-
-
-nav a {
-  font-size: 25px;
-  line-height: 29px;
-  font-family: 'Raleway', sans-serif;
-  color: #EDCCC6;
-  text-decoration: none;
-  font-weight: 300;
-  }
-
-
-.angle {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  max-height: 100%;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(85% - 8vw), 0 100%);
-          clip-path: polygon(0 0, 100% 0, 100% calc(85% - 8vw), 0 100%);
-}
-
-@supports not ((-webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 8vw), 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% calc(100% - 8vw), 0 100%))) {
-  .angle::before, .angle::after {
-    content: "";
-    position: relative;
-    left: 0;
-    z-index: 10;
-    width: 100%;
-    border-style:  transparent transparent #fff transparent;
-  }
-  .angle::after {
-    bottom: 0;
-    border-width: 0 0 8vw 100vw;
-    width: 100%;
-    border-color: transparent transparent #fff transparent;
-  }
-}
-
-.angle img {
-  width: 100%;
-}
-
-main {
-    height: 100%;
-    max-width: 1440;
-    display: grid;
-    grid-gap: 3px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 800px auto 40px;
-}
 
 .hero {
   grid-column: 1 / -1;
@@ -196,30 +35,9 @@ main {
   color: #FFF;
 }
 
-.heroApp img {
-}
-
 .bodycontent {
   grid-column: 3 / span 8;
   grid-row: 2;
-}
-
-.intro h2 {
-  margin-bottom: 30px;
-}
-
-.introlist {
-  margin-top: 20px;
-  margin-bottom: 110px;
-}
-
-.intro li {
-  padding: 10px;
-  margin-left: 50px;
-}
-
-.intro h3 {
-  margin-top: 15px;
 }
 
 .introbox {
@@ -236,10 +54,6 @@ main {
   align-self: end;
   display: flex;
   align-items: center;
-}
-
-.introbox img {
-  max-width: 100%;
 }
 
 .introbox h3 {
@@ -264,16 +78,6 @@ main {
   align-self: center;
 }
 
-hr {
-    margin-top: 140px;
-    margin-bottom: 140px;
-    overflow: hidden;
-    border-style: solid;
-    border-width: 4px;
-    border-radius: 8px;
-    color: #EDCCC6;
-}
-
 .space {
   margin-top: 120px;
 }
@@ -295,17 +99,14 @@ hr {
 
 .persona1 {
   grid-column: 1 / span 12;
-  width: 100%;
 }
 
 .persona2 {
   grid-column: 1 / span 6;
-  width: 100%;
 }
 
 .persona3 {
   grid-column: 7 / span 6;
-  width: 100%;
 }
 
 
@@ -565,59 +366,4 @@ p {
   line-height: 35px;
   text-align: center;
   font-weight: 400;
-}
-
-a {
-  text-decoration: none;
-}
-
-li {
-  font-size: 22px;
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.3;
-  font-weight: 300;
-}
-
-
-
-.fixedfoot {
-  grid-column: 1 / -1;
-  grid-row: 3;
-  background-image: url(../images/plants1.png);
-  display: flex;
-  align-items: center;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  width: 100%;
-  height: 60px;
-}
-
-.leftfoot {
-  flex-grow: 1; /* to push the right icons right*/
-}
-
-footer a {
-  margin: 15px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 25px;
-  text-align: left;
-  color: #B38E40;
-  text-decoration: none;
-  padding-left: 20px;
-  font-weight: 300;
-}
-
-footer a:hover {
-  font-weight: 500;
-  color: #EDCCC6;
-}
-
-footer h6 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  text-align: right;
-  color: #FFFFFF;
-  padding: 10px;
-  right: 8px;
 }

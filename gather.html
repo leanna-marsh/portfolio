@@ -4,9 +4,10 @@
   <head>
     <title>LM Portfolio | Home</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Oswald%7CRaleway:200,300,500,600%7CRoboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles/reset.css">
-  <link rel="stylesheet" type="text/css" href="styles/gather.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles2.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/87519e2005.js"></script>
   </head>
@@ -20,20 +21,15 @@
           <div class="home">
           <a href="index.html">Home</a>
         </div>
-          <div class="dropdown">
-            <button class="dropbtn">Work
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="gather.html">Gather</a>
-              <a href="#">Project 2</a>
-            </div>
+        <div class="work">
+          <a href="index.html#projects">Work</a>
+        </div>
           </div>
           <div class="about">
           <a href="about.html">About</a>
         </div>
         <div class="contact">
-          <a href="contact.html">Get In Touch</a>
+          <a href="contact.html">Contact</a>
         </div>
         </nav>
       </header>
@@ -67,7 +63,7 @@
     <section class="bodycontent">
 
           <section class="intro">
-            <h2>The Problem</h2>
+            <h3>The Problem</h3>
             <div class=intro1>
             <p>Invent, design and brand a cloud storage app
                with the following desired features:</p>
@@ -80,7 +76,7 @@
               <li class="points">Uploading files from a personal device</li>
             </ul>
           </div>
-            <h2>The Solution</h2>
+            <h3>The Solution</h3>
             <div class="intro1">
             <p>Gather: a place for both people and content to gather, connect and intertwine.</p>
           </div>
@@ -100,11 +96,11 @@
           <div class="webScreen">
               <img src="images/web/home.jpg" alt="Homepage of Gather for the web or desktop">
           </div>
-          <div class="introlink1">
-            <a href="https://www.figma.com/proto/7Z22mOjlwbXQZljf6BdJFZ/Pixel2-Gather?node-id=239%3A2485&scaling=scale-down" target="_blank"><h3>View the app prototype.</h3></a>
+          <div class="insta">
+            <a href="https://www.figma.com/proto/7Z22mOjlwbXQZljf6BdJFZ/Pixel2-Gather?node-id=239%3A2485&scaling=scale-down" target="_blank">View the app prototype.</a>
           </diV>
-          <div class="introlink2">
-            <a href="https://www.figma.com/proto/NlNOQ0sMESDcm1ENh6yiMp/Gather-Desktop-Final?node-id=277%3A5284&scaling=min-zoom" target="_blank"><h3>View the web prototype.</h3></a>
+          <div class="insta">
+            <a href="https://www.figma.com/proto/NlNOQ0sMESDcm1ENh6yiMp/Gather-Desktop-Final?node-id=277%3A5284&scaling=min-zoom" target="_blank" class="hide">View the web prototype.</a>
           </div>
           </section>
           <div class="mission">
@@ -119,7 +115,7 @@
 
             <section class="research">
                 <div class="intro">
-                    <h2>Research</h2>
+                    <h3>Research</h3>
                     <div class=intro1>
                     <p>After surveying 29 participants, it was clear that people were looking for a social
                        platform with images and videos to explore, while having the flexibility to keep things private, to their own friends or public. </p>
@@ -131,11 +127,11 @@
                       <li class="points">People save Favorite Sites, Articles, References and Videos the most on their bookmarks in a browser</li>
                       <li class="points">People mostly posted photos, videos and art to social media platforms</li>
                     </ul>
-                    <a href="https://forms.gle/3y6wj4MPn7WrYbHN6" target="_blank"><h3>View the survey and results here.</h3></a>
+                    <a href="https://forms.gle/3y6wj4MPn7WrYbHN6" target="_blank" class="link1">View the survey and results here.</a>
                   </div>
                 </div>
                   <div class="intro">
-                    <h2>Competitive Analysis</h2>
+                    <h3>Competitive Analysis</h3>
                     <div class="intro1">
                     <p>Knowing I would be creating a social sharing platform, I researched three companies that do just that:
                        Pocket, Instapaper and Pinterest. For this, I performed a SWOT analysis.</p>
@@ -146,10 +142,10 @@
                       <li class="results">These platforms focus either just on articles or just on photos and videos, neither on both</li>
                       <li class="results">Many platforms that tried to focus on text-based content no longer exist</li>
                     </ul>
-                    <a href="https://docs.google.com/document/d/1fkqP8DFktTmxirToVpjBK0L4CNy7uMMsqs-LibebqwE/edit?usp=sharing" target="_blank"><h3>View the full SWOT analysis here.</h3></a>
+                    <a href="https://docs.google.com/document/d/1fkqP8DFktTmxirToVpjBK0L4CNy7uMMsqs-LibebqwE/edit?usp=sharing" target="_blank" class="link1">View the full SWOT analysis here.</a>
                   </div>
                   <div class="intro">
-                    <h2 class="space">User Personas</h2>
+                    <h3 class="space">User Personas</h3>
                     <div class="intro1">
                     <p class="explaination">People can use Gather in different ways, but our target audience is looking for the same main goals:</p>
                   </div>
@@ -166,14 +162,14 @@
                       <img src="images/Lisa.jpg" class="persona3" alt="User Persona of 'Lisa' with various bio info">
                     </div>
                   <div class="intro">
-                    <h2 class="space">User Stories</h2>
+                    <h3 class="space">User Stories</h3>
                   </div>
                   <div class="intro1">
                     <p>From my research, I was able to determine the various tasks that were integral for the user, organized by priority level.</p>
                     </div>
                   <section class="storybox">
                     <div class="high">
-                      <p>High Priority</p>
+                      <h5>High Priority</h5>
                     </div>
                     <div class="highPoints">
                       <ul>
@@ -186,7 +182,7 @@
                     </ul>
                   </div>
                     <div class="medium">
-                      <p>Medium Priority</p>
+                      <h5>Medium Priority</h5>
                     </div>
                     <div class="mediumPoints">
                       <ul>
@@ -197,7 +193,7 @@
                     </ul>
                   </div>
                     <div class="low">
-                      <p>Low Priority</p>
+                      <h5>Low Priority</h5>
                     </div>
                     <div class="lowPoints">
                       <ul>
@@ -208,7 +204,7 @@
                   </div>
                 </section>
                     <div class="intro">
-                      <h2 class="space">User Flows</h2>
+                      <h3 class="space">User Flows</h3>
                     </div>
                       <div class="intro1">
                       <p>User Flows is a very important step in the creation process
@@ -218,7 +214,7 @@
                 <!-- image of user flow-->
                         <img src="images/sharing.png" class="flows" alt="User Flow of how to share an item or folder with Gather">
                         <div class="intro">
-                        <a href="https://www.figma.com/file/Sd9XkYslJwLU2T8hJUeJAH/User-Flows-Gather?node-id=0%3A1" target="_blank"><h3>View all of the User Flows here.</h3></a>
+                        <a href="https://www.figma.com/file/Sd9XkYslJwLU2T8hJUeJAH/User-Flows-Gather?node-id=0%3A1" target="_blank" class="link1">View all of the User Flows here.</a>
                     </div>
                 </section>
 
@@ -226,7 +222,7 @@
 
                     <section class="design">
                       <div class="intro">
-                        <h2 class="space">Branding: Name, Logo & Color Palette</h2>
+                        <h3 class="space">Branding: Name, Logo & Color Palette</h3>
                       </div>
                       <div class="intro1">
                         <p>I wanted to create a place for both people and content to gather, connect
@@ -239,11 +235,11 @@
                           <img src="images/logos.png" class="branding2" alt="Various versions of the Gather logo">
                           <img src="images/colors.png" class="branding3" alt="The color palette for Gather">
                           <!-- update branding guidelines-->
-                          <a href="https://www.figma.com/file/rHIGTYcjwZDXbKTaymKSwd/Gather-Branding?node-id=1767%3A2547" target="_blank"><h3>View the full branding guidelines here.</h3></a>
+                          <a href="https://www.figma.com/file/rHIGTYcjwZDXbKTaymKSwd/Gather-Branding?node-id=1767%3A2547" target="_blank" class="link1">View the full branding guidelines here.</a>
                       </div>
                       <section class="wireframes">
                       <div class="intro">
-                        <h2 class="space">Wireframing</h2>
+                        <h3 class="space">Wireframing</h3>
                       </div>
                         <div class="intro1">
                         <p>Going from quick sketches, to lo-fi to hi-fi versions, my designs
@@ -276,7 +272,7 @@
 <hr>
                     <section class="testing">
                       <div class="intro">
-                        <h2 class="space">Testing</h2>
+                        <h3 class="space">Testing</h3>
                       </div>
                       <div class="intro1">
                         <p>I tested my low and high fidelity prototypes to six users, all garnering
@@ -302,13 +298,13 @@
                         <img src="images/test3.png" class="preference2" alt="Preference test of content alignment">
                         <img src="images/test2.png" class="preference3" alt="Preference test of logo designs">
                       </div>
-                            <a href="https://app.usabilityhub.com/do/c2c3f1e64ac4/14a8" target="_blank"><h3>See the selected contact preference test here.</h3></a><br>
-                            <a href="https://app.usabilityhub.com/do/bff4feb5b3a0/c0be" target="_blank"><h3>See the logo preference test here.</h3></a><br>
-                            <a href="https://app.usabilityhub.com/do/c2c3f1e64ac4/14a8" target="_blank"><h3>See the content alignment preference test here.</h3></a>
+                            <a href="https://app.usabilityhub.com/do/c2c3f1e64ac4/14a8" target="_blank" class="link1">See the selected contact preference test here.</a><br>
+                            <a href="https://app.usabilityhub.com/do/bff4feb5b3a0/c0be" target="_blank" class="link1">See the logo preference test here.</a><br>
+                            <a href="https://app.usabilityhub.com/do/c2c3f1e64ac4/14a8" target="_blank" class="link1">See the content alignment preference test here.</a>
                         </section>
                         <section class="iterations">
                           <div class="intro">
-                          <h2 class="space">Iterations</h2>
+                          <h3 class="space">Iterations</h3>
                         </div>
                         <div class="intro1">
                           <p>From all the gathered insight and feedback, I was able to go from my initial wireframe
@@ -332,7 +328,7 @@
 
                       <section class="takeaways">
                         <div class="intro">
-                          <h2>Takeaways</h2>
+                          <h3>Takeaways</h3>
                         </div>
                         <div class="introlist">
                             <ul style="list-style-type:circle;">
@@ -347,7 +343,11 @@
                 </section>
 
                   <!-- Footer-->
-                  <footer class="fixedfoot">
+                  <footer>
+                    <section class="fixedfoot">
+                    <div class="angle2">
+                      <img src="images/plants2.jpg" alt="image of large dark green leaves" class="angle__content">
+                    </div>
                       <div class="leftfoot">
                         <a href="index.html">Work</a>
                         <a href="about.html">About</a>
@@ -357,6 +357,7 @@
                         <h6>© 2019 | Designed & Developed by Leanna Marsh</h6>
                       </div>
                     </footer>
+                  </section>
                   </main>
                 </body>
               </html>
