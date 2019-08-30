@@ -893,7 +893,6 @@ footer h6 {
   }
 
   .hero-text {
-    top: 200px;
     max-width: 79%;
   }
 
@@ -1241,6 +1240,10 @@ footer h6 {
 }
 
 @media only screen and (min-width: 750px){
+  .iconlist {
+    top: 52%;
+  }
+
   .introbox {
     display: grid;
     grid-gap: 10px;
@@ -1302,6 +1305,8 @@ footer h6 {
 
   nav a {
   font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
   }
 
   .rightnav {
@@ -1317,7 +1322,7 @@ footer h6 {
   }
 
   .hero-text {
-    top: 30%;
+    top: 22%;
     max-width: 70%;
   }
 
@@ -1333,7 +1338,7 @@ footer h6 {
 
   .iconlist {
     margin-left: 10px;
-    top: 62%;
+    top: 55%;
   }
 
   input {
@@ -1407,7 +1412,7 @@ footer h6 {
 
   .iconlist {
     margin-left: 10px;
-    top: 68%;
+    top: 62%;
   }
 
   .creativeImages {
