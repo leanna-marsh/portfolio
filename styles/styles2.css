@@ -678,6 +678,7 @@ hr {
 
 .branding3 {
   display: none;
+  max-height: 100%;
 }
 
 .wireframes img {
@@ -935,6 +936,7 @@ input {
 }
 
 /* Gather */
+
 .personaFigma {
   display: grid;
   grid-gap: 8px;
@@ -1061,6 +1063,7 @@ input {
 
 .sketchy1 {
   grid-column: 1 / span 6;
+  display: block;
 }
 
 .sketchy2 {
@@ -1078,6 +1081,10 @@ input {
   max-width: 100%;
 }
 
+.fiBox img {
+    width: 100%;
+}
+
 .lofi1 {
   grid-column: 1 / span 1;
 }
@@ -1092,10 +1099,20 @@ input {
 
 .lofi4 {
   grid-column: 4 / span 1;
+  display: block;
 }
 
 .lofi5 {
   grid-column: 5 / span 1;
+  display: block;
+}
+
+.hifi2 {
+  display: block;
+}
+
+.hifi4 {
+  display: block;
 }
 
 .introlist li {
@@ -1140,6 +1157,10 @@ input {
   max-width: 100%;
 }
 
+.iterationBox img {
+    width: 100%;
+}
+
 .iter1 {
   grid-column: 1 / span 2;
   grid-row: 1;
@@ -1158,6 +1179,7 @@ input {
 .iter4 {
   grid-column: 7 / span 5;
   grid-row: 1;
+  display: block;
 }
 
 footer {
@@ -1216,6 +1238,64 @@ footer h6 {
   margin-right: 10px;
   padding-top: 10px;
 }
+}
+
+@media only screen and (min-width: 750px){
+  .introbox {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(12, 1fr);
+    margin-bottom: 50px;
+    align-items: center;
+  }
+
+  .webScreen {
+    grid-column: 4 / span 9;
+    align-self: end;
+    display: flex;
+    align-items: center;
+  }
+
+  .introbox h3 {
+    margin: auto;
+    text-align: center;
+  }
+
+  .appScreen {
+    grid-column: 1 / span 3;
+    text-align: right;
+    align-self: end;
+  }
+
+  .insta {
+    grid-column: 1 / span 3;
+    margin-left: 1.5em;
+    text-align: center;
+  }
+
+  .insta3 {
+    grid-column: 4 / span 9;
+    margin-left: 1.5em;
+    align-self: center;
+    display: block;
+    text-align: center;
+  }
+
+  .insta3 a {
+    color: #12634F;
+  }
+
+  .insta3 a:hover {
+    opacity: 0.7;
+  }
+
+  .insta3 a:visited {
+    color: #3C5050;
+  }
+
+  .hide {
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 900px) {
