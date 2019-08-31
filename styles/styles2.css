@@ -665,7 +665,7 @@ hr {
 }
 
 .wireframes img {
-  max-height: 375px;
+  max-height: 271.05px;
 }
 
 .wireframes p {
@@ -733,6 +733,7 @@ hr {
 
 .iterationBox img {
   width: 33%;
+  max-height: 310px;
 }
 
 .space {
