@@ -123,7 +123,7 @@ main a:hover {
 
 .arrows {
   top: -13%;
-  left: 48%;
+  left: 45%;
   position: relative;
   width: 45px;
 }
@@ -162,33 +162,12 @@ main a:hover {
   margin-bottom: 150px;
 }
 
-
-/* for desktop
-.gatherbox {
-  display: grid;
-  grid-gap: 3px;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 1fr;
-  margin-bottom: 150px;
-}
-
-.gatherimg {
-  grid-column: 4 / span 3;
-}
-*/
-
 .gatherimg img {
   margin-top: 20px;
   max-width: 100%;
 }
 
 .gatherdesc {
-  /*for desktop
-  grid-column: 1 / span 3;
-  padding-right: 20px;
-  margin-top: 60px;
-  text-align: right;
- */
  margin-top: 20px;
 }
 
@@ -212,8 +191,6 @@ main a:hover {
   padding: 10px;
   margin: auto;
   margin-top: 20px;
-  /* desktop
-  margin-left: auto;*/
 }
 
 
@@ -270,6 +247,10 @@ h4 {
   letter-spacing: -0.573913px;
   font-weight: 100;
   text-align: center;
+}
+
+h6 {
+  font-weight: 300;
 }
 
 .pink {
@@ -661,6 +642,7 @@ hr {
 
 .persona3 {
   width: 100%;
+  display: none;
 }
 
 .designBox {
@@ -764,7 +746,7 @@ hr {
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   line-height: 1.4;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .link1 {
@@ -772,7 +754,7 @@ hr {
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   line-height: 1.4;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 
@@ -896,6 +878,10 @@ footer h6 {
     max-width: 79%;
   }
 
+  .arrows {
+    left: 48%;
+  }
+
   .gotop {
     display: block;
     margin-right: 10px;
@@ -912,7 +898,7 @@ footer h6 {
 
 /*contact*/
 .iconlist {
-  top: 58%;
+  top: 60%;
 }
 
 input {
@@ -957,6 +943,7 @@ input {
 
 .persona3 {
   grid-column: 7 / span 6;
+  display: block;
 }
 
 .storybox {
