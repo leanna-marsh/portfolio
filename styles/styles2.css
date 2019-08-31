@@ -347,7 +347,7 @@ input[type=message] {
   position: absolute;
   max-width: 65%;
   left: 7%;
-  top: 55%;
+  top: 58%;
   width: 45px;
   height: 45px;
   color: #B38E40;
@@ -558,6 +558,7 @@ input:hover {
 
 .introbox img {
   max-width: 100%;
+  margin: auto;
 }
 
 .intro {
@@ -746,7 +747,7 @@ hr {
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   line-height: 1.4;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .link1 {
@@ -754,7 +755,7 @@ hr {
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   line-height: 1.4;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 
@@ -1392,6 +1393,7 @@ footer h6 {
 }
 
 @media only screen and (min-width: 1000px) {
+
   h1 {
     font-size: 40px;
     line-height: 60px;
@@ -1412,4 +1414,10 @@ footer h6 {
 
   .angle img {
     width: 100%;
+}
+
+.bodycontent {
+  grid-column: 3 / span 8;
+  grid-row: 2;
+}
 }
