@@ -141,10 +141,6 @@ main a:hover {
   max-width: 1440px;
 }
 
-.insta a:visited {
-  color: #3C5050;
-}
-
 .blurb a:visited {
   color: #BA746A;
 }
@@ -194,7 +190,6 @@ main a:hover {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   border-style: none;
-  border-color: #0066A2;
   width: 135px;
   text-align: center;
   border-radius: 8px;
@@ -202,6 +197,26 @@ main a:hover {
   padding: 10px;
   margin: auto;
   margin-top: 20px;
+}
+
+button {
+  background: #12634F;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  border-style: none;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 20px 0px 0px;
+}
+
+button a:visited {
+  color: white;
+}
+
+button a {
+  color: white;
 }
 
 
@@ -461,16 +476,7 @@ input:hover {
   margin-top: 60px;
 }
 
-.insta {
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
-.insta a {
-  color: #12634F;
-}
-
-.insta a:hover {
+button a:hover {
   opacity: 0.7;
 }
 
@@ -570,10 +576,6 @@ input:hover {
 .introbox img {
   max-width: 100%;
   margin: auto;
-}
-
-.intro {
-  margin-top: 40px;
 }
 
 .intro h2 {
@@ -759,15 +761,6 @@ hr {
   line-height: 1.4;
   font-weight: 500;
 }
-
-.link1 {
-  color: #12634F;
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.4;
-  font-weight: 500;
-}
-
 
 /* UNIVERSAL */
 
@@ -1025,18 +1018,12 @@ input {
 
 .designBox {
   display: grid;
-  grid-gap: 15px;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 1fr;
   margin-top: 50px;
   margin-bottom: 50px;
   align-items: flex-start;
   max-width: 100%;
-}
-
-.designBox a {
-  grid-column: 1 / -1;
-  grid-row: 2;
 }
 
 .branding1 {
@@ -1287,22 +1274,9 @@ footer h6 {
 
   .insta3 {
     grid-column: 4 / span 9;
-    margin-left: 1.5em;
     align-self: center;
     display: block;
     text-align: center;
-  }
-
-  .insta3 a {
-    color: #12634F;
-  }
-
-  .insta3 a:hover {
-    opacity: 0.7;
-  }
-
-  .insta3 a:visited {
-    color: #3C5050;
   }
 
   .hide {
