@@ -161,6 +161,13 @@ main a:hover {
   margin-bottom: 150px;
 }
 
+.gatherLogo {
+    color: black;
+    height: 60px;
+    left: 30%;
+    position: relative;
+  }
+
 .gatherimg img {
   margin-top: 20px;
   max-width: 100%;
@@ -885,7 +892,10 @@ footer h6 {
   .gotop {
     display: block;
     margin-right: 10px;
-    margin-bottom: 20px;
+  }
+
+  .gatherLogo {
+    left: 40%;
   }
 
   h1 {
