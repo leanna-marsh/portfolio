@@ -78,6 +78,11 @@ nav a {
   max-height: 800px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(85% - 2vw), 0 100%);
           clip-path: polygon(0 0, 100% 0, 100% calc(85% - 2vw), 0 100%);
+  background-image: url(../images/plants2.jpg);
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 @supports not ((-webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 8vw), 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% calc(100% - 8vw), 0 100%))) {
@@ -95,10 +100,6 @@ nav a {
     width: 100%;
     border-color: transparent transparent #fff transparent;
   }
-}
-
-.angle img {
-  height: 600px;
 }
 
 main {
@@ -153,6 +154,10 @@ main a:hover {
 }
 
 .button a:visited {
+  color: white;
+}
+
+.button a {
   color: white;
 }
 
