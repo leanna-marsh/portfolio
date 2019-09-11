@@ -890,6 +890,10 @@ footer h6 {
     max-width: 79%;
   }
 
+  .hero-text img {
+    margin-top: 20px;
+  }
+
   .arrows {
     left: 48%;
   }
