@@ -644,6 +644,10 @@ hr {
   display: none;
 }
 
+.hide2 {
+  display: none;
+}
+
 .persona1 {
   width: 100%;
 }
@@ -1281,6 +1285,10 @@ footer h6 {
 
   .hide {
     display: block;
+  }
+
+  .hide2 {
+    display: list-item;
   }
 }
 
