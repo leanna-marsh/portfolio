@@ -103,7 +103,6 @@ nav a {
 
 main {
     height: 100%;
-    max-width: 1440px;
     display: grid;
     grid-gap: 3px;
     grid-template-columns: repeat(12, 1fr);
@@ -138,6 +137,7 @@ main a:hover {
 .bodycontent {
   grid-column: 2 / span 10;
   grid-row: 2;
+  max-width: 1440px;
 }
 
 .insta a:visited {
