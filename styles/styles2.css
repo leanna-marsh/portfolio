@@ -1086,7 +1086,7 @@ input {
 }
 
 .fiBox img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .lofi1 {
