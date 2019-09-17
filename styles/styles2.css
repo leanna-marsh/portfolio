@@ -751,7 +751,7 @@ hr {
 }
 
 .iterationBox img {
-  width: 33%;
+  max-width: 33%;
   max-height: 310px;
 }
 
@@ -1161,7 +1161,7 @@ input {
 }
 
 .iterationBox img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .iter1 {
