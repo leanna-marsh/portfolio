@@ -734,7 +734,7 @@ hr {
 }
 
 .fiBox img {
-  width: 33%;
+  max-width: 33%;
 }
 
 .hifi2 {
