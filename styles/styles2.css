@@ -369,6 +369,14 @@ input[type=message] {
   font-weight: 300;
 }
 
+textarea {
+  color: black;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
 .iconlist {
   position: absolute;
   max-width: 65%;
