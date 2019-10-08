@@ -831,6 +831,10 @@ hr {
   max-width: 100%;
 }
 
+.jokerHero {
+  max-height: 65px;
+}
+
 /* UNIVERSAL */
 
 .fixedfoot {
@@ -1258,10 +1262,6 @@ input {
 
 .brand2 {
   max-width: 47%;
-}
-
-.jokerHero {
-  max-height: 65px;
 }
 
 footer {
