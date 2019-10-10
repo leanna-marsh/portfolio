@@ -162,11 +162,15 @@ main a:hover {
   margin-bottom: 150px;
 }
 
+.gatherbox {
+  margin-bottom: 150px;
+}
+
+
 .gatherLogo {
     color: black;
     height: 60px;
-    left: 30%;
-    position: relative;
+    text-align: center;
   }
 
 .gatherimg img {
@@ -176,6 +180,10 @@ main a:hover {
 
 .gatherdesc {
  margin-top: 20px;
+}
+
+.projImg {
+  text-align: center;
 }
 
 .paragraph {
@@ -970,10 +978,6 @@ footer h6 {
     margin-right: 10px;
   }
 
-  .gatherLogo {
-    left: 40%;
-  }
-
   h1 {
     font-size: 35px;
   }
@@ -1265,6 +1269,12 @@ input {
   max-width: 47%;
 }
 
+.gatherLogo {
+    color: black;
+    height: 70px;
+    text-align: center;
+  }
+
 footer {
   grid-column: 1 / -1;
   grid-row: 3;
@@ -1369,6 +1379,12 @@ footer h6 {
     text-align: center;
   }
 
+  .gatherLogo {
+      color: black;
+      height: 90px;
+      text-align: center;
+    }
+
   .hide {
     display: block;
     grid-column: 4 / span 4;
@@ -1428,27 +1444,45 @@ footer h6 {
     display: grid;
     grid-gap: 3px;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr;
-    margin-bottom: 150px;
+    grid-template-rows: 2fr;
+  }
+
+  .gatherLogo {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    margin-left: auto;
+    margin-bottom: 30px;
+    height: 60px;
+  }
+
+  .projImg {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    padding-right: 20px;
+    margin-left: auto;
   }
 
   .gatherimg {
     grid-column: 4 / span 3;
-    grid-row: 1;
+    grid-row: 1 / span 2;
+    margin-top: 0px;
   }
 
   .gatherimg img {
     max-width: 100%;
+    margin-top: 0px;
   }
 
   .gatherdesc {
     grid-column: 1 / span 3;
     grid-row: 1;
-    margin-top: 60px;
     text-align: right;
     padding-right: 20px;
     align-self: center;
+    margin-top: 50px;
   }
+
+
 
   .button {
     margin: 0;
