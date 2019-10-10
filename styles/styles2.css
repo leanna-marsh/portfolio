@@ -844,6 +844,24 @@ hr {
   margin-top: 30px;
 }
 
+/* TV Rex */
+
+.rexImg {
+  max-width: 70%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.centerit {
+  text-align: center;
+}
+
+.lefty {
+max-width: 40%;
+text-align: center;
+}
+
 /* UNIVERSAL */
 
 .fixedfoot {
@@ -1275,6 +1293,8 @@ input {
     text-align: center;
   }
 
+
+
 footer {
   grid-column: 1 / -1;
   grid-row: 3;
@@ -1394,7 +1414,6 @@ footer h6 {
   .hide2 {
     display: list-item;
   }
-}
 
 @media only screen and (min-width: 900px) {
 
