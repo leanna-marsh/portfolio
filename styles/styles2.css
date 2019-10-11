@@ -862,6 +862,14 @@ max-width: 40%;
 text-align: center;
 }
 
+.half {
+  display: flex;
+}
+
+.mtop {
+  margin-top: 40px;
+}
+
 /* UNIVERSAL */
 
 .fixedfoot {
