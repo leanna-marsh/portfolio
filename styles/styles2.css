@@ -883,6 +883,10 @@ text-align: center;
   margin-bottom: 250px;
 }
 
+.aboutme2 {
+  margin-top: 40px;
+}
+
 /* UNIVERSAL */
 
 .fixedfoot {
@@ -1316,6 +1320,8 @@ input {
 
 
 
+
+
 footer {
   grid-column: 1 / -1;
   grid-row: 3;
@@ -1551,6 +1557,7 @@ footer h6 {
       margin-bottom: 140px;
       align-content: center;
   }
+
 
   .aboutme {
     grid-column: 1;
