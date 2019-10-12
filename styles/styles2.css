@@ -1405,6 +1405,7 @@ footer h6 {
 
   .webScreen {
     grid-column: 4 / span 9;
+    grid-row: 1;
     align-self: end;
     display: flex;
     align-items: center;
