@@ -145,6 +145,13 @@ main a:hover {
   max-width: 1440px;
 }
 
+.bodycontent2 {
+  grid-column: 2 / span 10;
+  grid-row: 2;
+  max-width: 1440px;
+  text-align: center;
+}
+
 .blurb a:visited {
   color: #BA746A;
 }
@@ -241,7 +248,7 @@ h1 {
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
-  line-height: 40px;
+  line-height: 50px;
   letter-spacing: 1px;
   text-align: center;
 }
@@ -394,14 +401,10 @@ textarea {
 }
 
 .iconlist {
-  position: absolute;
-  max-width: 65%;
-  left: 7%;
-  top: 58%;
-  width: 45px;
   height: 45px;
+  margin-top: 40px;
   color: #9C7B35;
-  display: flex;
+  display: inline-flex;
 }
 
 .iconlist a {
@@ -1043,7 +1046,7 @@ footer h6 {
 
 /*contact*/
 .iconlist {
-  top: 60%;
+text-align: center;
 }
 
 input {
@@ -1393,9 +1396,6 @@ footer h6 {
 }
 
 @media only screen and (min-width: 750px){
-  .iconlist {
-    top: 52%;
-  }
 
   .introbox {
     display: grid;
@@ -1492,10 +1492,6 @@ footer h6 {
     font-size: 30px;
   }
 
-  .iconlist {
-    margin-left: 10px;
-    top: 55%;
-  }
 
   input {
     width: 600px;
@@ -1594,10 +1590,6 @@ footer h6 {
     font-size: 40px;
   }
 
-  .iconlist {
-    margin-left: 10px;
-    top: 62%;
-  }
 
   .creativeImages {
       column-count: 4;
@@ -1612,4 +1604,11 @@ footer h6 {
   grid-column: 3 / span 8;
   grid-row: 2;
 }
+
+.bodycontent2 {
+  grid-column: 2 / span 10;
+  grid-row: 2;
+  text-align: center;
+}
+
 }
