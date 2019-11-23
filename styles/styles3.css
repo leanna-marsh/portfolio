@@ -402,9 +402,9 @@ textarea {
 
 .iconlist {
   height: 45px;
+  text-align: center;
   margin-top: 40px;
   color: #9C7B35;
-  text-align: center;
 }
 
 .iconlist a {
