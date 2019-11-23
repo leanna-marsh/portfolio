@@ -1606,9 +1606,8 @@ footer h6 {
 }
 
 .bodycontent2 {
-  grid-column: 2 / span 10;
+  grid-column: 3 / span 8;
   grid-row: 2;
-  text-align: center;
 }
 
 }
