@@ -519,10 +519,14 @@ button a:hover {
     margin-top: 40px;
     margin-bottom: 100px;
     max-width: 100%;
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
+}
+
+.experience li {
+  margin-bottom: 30px;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .skills {
@@ -531,30 +535,6 @@ button a:hover {
   line-height: 1.5;
   font-weight: 300;
   grid-column: 1;
-}
-
-.roles {
-  font-size: 25px;
-  font-family: 'Raleway', sans-serif;
-  line-height: 1;
-  grid-column: 2;
-  font-weight: 500;
-}
-
-.roles li {
-  margin-bottom: 15px;
-}
-
-.pm {
-  color: #9C7B35;
-}
-
-.mkt {
-  color: #BA746A;
-}
-
-.ux {
-  color: #12634F;
 }
 
 .creative {
@@ -576,7 +556,7 @@ button a:hover {
 }
 
 .workTogether {
-  margin-top: 150px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 
@@ -1552,36 +1532,15 @@ footer h6 {
     text-align: center;
   }
 
-  .me {
-      display: grid;
-      grid-gap: 20px;
-      grid-template-columns: repeat(2, 1fr);
-      align-content: center;
-  }
-
-
-  .me2 {
-      display: grid;
-      grid-gap: 20px;
-      grid-template-columns: repeat(2, 1fr);
-      margin-top: 140px;
-      margin-bottom: 140px;
-      align-content: center;
-  }
-
-
-  .aboutme {
-    grid-column: 1;
-    align-self: center;
-  }
-
-  .portrait {
-    grid-column: 2;
+  .bioText {
+    margin-top: 40px;
   }
 
   .portrait img {
     margin-top: 0px;
+    max-width: 500px;
   }
+
 }
 
 @media only screen and (min-width: 1000px) {
