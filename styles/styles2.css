@@ -166,7 +166,8 @@ main a:hover {
 }
 
 .gatherbox {
-  margin-bottom: 150px;
+  margin-top: 40px;
+  margin-bottom: 100px;
 }
 
 
@@ -190,7 +191,7 @@ main a:hover {
 }
 
 .paragraph {
-  margin-top: 140px;
+  margin-top: 100px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -896,7 +897,7 @@ text-align: center;
 }
 
 #projects {
-  margin-bottom: 250px;
+  margin-bottom: 150px;
 }
 
 .aboutme2 {
