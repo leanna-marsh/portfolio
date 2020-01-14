@@ -1133,7 +1133,6 @@ input {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 1fr;
   margin-top: 50px;
-  margin-bottom: 50px;
   align-items: flex-start;
   max-width: 100%;
 }
