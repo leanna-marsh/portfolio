@@ -857,6 +857,11 @@ hr {
   text-align: center;
 }
 
+.caseLogo {
+  text-align: center;
+  max-height: 60px;
+}
+
 .lefty {
 max-width: 40%;
 text-align: center;
@@ -1016,6 +1021,10 @@ footer h6 {
   h1 {
     font-size: 35px;
     margin-top: 60px;
+  }
+
+  .topSpace {
+    margin-top: 50px;
   }
 
   .angle2 {
