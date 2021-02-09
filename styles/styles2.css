@@ -161,6 +161,14 @@ main a:hover {
   color: white;
 }
 
+.button2 a:visited {
+  color: white;
+}
+
+.button2 a {
+  color: white;
+}
+
 .blurb {
   margin-top: 30px;
 }
@@ -355,6 +363,16 @@ h4 {
   font-weight: 300;
 }
 
+.mainlink a {
+    color: #BA746A;
+    margin-bottom: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    font-weight: 300;
+}
+
 a {
   text-decoration: none;
 }
@@ -511,6 +529,25 @@ input:hover {
 
 button a:hover {
   opacity: 0.7;
+}
+
+button2 a:hover {
+  opacity: 0.7;
+}
+
+.button2 {
+    background: #12634F;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    border-style: none;
+    width: 135px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
 }
 
 .experience {
