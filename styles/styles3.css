@@ -719,6 +719,9 @@ hr {
   max-height: 271.05px;
 }
 
+.wireframes2 img {
+}
+
 .wireframes p {
   margin-bottom: 20px;
 }
@@ -1181,6 +1184,13 @@ input {
 
 .wireframes img {
   max-height: 375px;
+}
+
+.wireframes2 img {
+}
+
+.intro1 img {
+  max-width: 100%;
 }
 
 .sketchBox {
