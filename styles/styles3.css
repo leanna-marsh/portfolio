@@ -172,6 +172,14 @@ main a:hover {
   color: white;
 }
 
+.button2 a:visited {
+  color: white;
+}
+
+.button2 a {
+  color: white;
+}
+
 .blurb {
   margin-top: 30px;
 }
@@ -1532,8 +1540,18 @@ footer h6 {
   }
 
   .button2 {
-    margin-left: auto;
-    margin-top: 10px;
+      background: #12634F;
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      font-size: 16px;
+      border-style: none;
+      width: 135px;
+      text-align: center;
+      border-radius: 8px;
+      margin-top: 15px;
+      padding: 10px;
+      margin: auto;
+      margin-top: 20px;
   }
 
   .paragraph {
