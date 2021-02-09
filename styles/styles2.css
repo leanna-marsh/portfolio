@@ -761,6 +761,10 @@ hr {
   max-height: 271.05px;
 }
 
+.wireframes2 img {
+  max-width: 100%;
+}
+
 .wireframes p {
   margin-bottom: 20px;
 }
